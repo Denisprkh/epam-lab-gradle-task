@@ -1,5 +1,5 @@
 allprojects {
-	apply plugin: 'java'
+    apply plugin: 'java'
     repositories{
         mavenLocal()
         mavenCentral()
@@ -9,7 +9,6 @@ allprojects {
 
 subprojects {
     version = '1.0'
-
 }
 
 project(':core'){
@@ -25,7 +24,3 @@ project(':api'){
         implementation project(':core')
     }
 }
-
-
-
-
